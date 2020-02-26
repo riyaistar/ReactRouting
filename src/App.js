@@ -12,6 +12,8 @@ import Home2 from './components/ROUTE2/Home2';
 import About2 from './components/ROUTE2/About2';
 import Topic from './components/ROUTE2/Topic';
 import User2 from './components/ROUTE2/UserList';
+import First from './components/route 3/First';
+import RouteConfigExample from './components/route 3/RouteConfigExample';
 
 //import { BrowserRouter as Router } from 'react-router-dom'
 
@@ -20,18 +22,25 @@ function App() {
   return (
     <Router>
       <div className="App">
-        {/* <Route path="/" exact strict component={Home} />
+        {/* //route 1
+        <Route path="/" exact strict component={Home} />
         <Route path="/about" component={About} />
         <Route path="/dashboard" component={Dashboard} />
         <Route path="/func" component={FunctionalComp} />
         <Route path="/user/:username" component={User} /> */}
+
+
+        {/* //route 2         
         <Route path="/" component={CustomNavbar} />
         <Route path="/home" component={Home2} />
 
         <Route path="/about" component={About2} />
         <Route path="/about/:topicid" component={Topic} />
 
-        <Route path="/user" component={User2} />
+        <Route path="/user" component={User2} /> */}
+
+        <RouteConfigExample />
+
       </div>
     </Router>
 
