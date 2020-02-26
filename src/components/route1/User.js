@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import FunctionalComp from './Functional';
 
 class User extends Component {
     constructor(props) {
@@ -11,7 +12,11 @@ class User extends Component {
 
     render() {
         return (
-            <div> User {this.state.username} is logged in</div>
+
+            <div>
+                <FunctionalComp />
+
+                User {this.state.username} is logged in</div>
         );
     }
 }
